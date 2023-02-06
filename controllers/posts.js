@@ -2,11 +2,11 @@ const postModel = require('../models/post');
 const userModel = require('../models/user');
 const moment = require('moment');
 
-const { users, posts } = require('../data/index');
+// const { users, posts } = require('../data/index');
 
-userModel.insertMany(users);
-postModel.insertMany(posts);
-console.log("Done");
+// userModel.insertMany(users);
+// postModel.insertMany(posts);
+// console.log("Done");
 
 
 const createPost = async (req, res) => {
